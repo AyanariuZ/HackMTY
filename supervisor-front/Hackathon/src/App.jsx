@@ -1,9 +1,10 @@
 import './App.css'
-import { Cameras } from './components/cameras'
+import { Cameras } from './components/Cameras'
 import Navbar from './components/Navbar'
 import Carousel from './components/Carousel'
 import RecoCard from './components/RecoCard'
 import Tabs from './components/Tabs'
+import Img from './components/Img'
 function App() {
   const data = [
     {
@@ -75,9 +76,10 @@ function App() {
 
     
     <Cameras >
-    <div className='backdrop-blur-md h-screen'>
+    <div >
       <Navbar>
     </Navbar>
+    <Img></Img>
     <Carousel>
     {data.map((item, index) => (
         <RecoCard
@@ -88,6 +90,7 @@ function App() {
         />
       ))}
     </Carousel>
+    <div className="backdrop-blur-md h-screen h-full w-full">
     <Tabs>
     {data.map((item, index) => (
         <RecoCard
@@ -98,6 +101,8 @@ function App() {
         />
       ))}
     </Tabs>
+    </div>
+    
     </div>
     
     </Cameras>

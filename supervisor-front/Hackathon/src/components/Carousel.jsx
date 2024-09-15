@@ -7,7 +7,7 @@ export default function Component({children}) {
 
   return (
 <div className="w-full max-w-[1200px] mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4 text-white">Ofertas Especiales</h2>
+      <h2 className="text-2xl font-bold mb-4 text-white">Ofertas recientes</h2>
       <div className="relative">
       
         <div className="overflow-x-auto pb-4 hide-scrollbar">

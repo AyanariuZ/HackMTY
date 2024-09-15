@@ -2,7 +2,7 @@ import {Tabs, Tab} from "@nextui-org/react";
 
 export default function TabsComponent({children}) {
   return (
-    <div className="flex w-full flex-col items-center">
+    <div className="flex w-screen flex-col items-center h-full bg-[url('https://i.pinimg.com/736x/72/9e/ca/729ecafd89fb38a4aaacb993485fadc3.jpg')] bg-cover ">
         
         <Tabs aria-label="Options">
       <Tab key="all" title="Todas" className="flex flex-wrap justify-start">

@@ -35,7 +35,7 @@ export default function NavbarComponent() {
           {/* Contenedor de la marca Hackathon */}
       <NavbarContent className="flex justify-start w-auto">
         <NavbarItem>
-          <p className="font-bold text-white">Hackathon</p>
+          <p className="font-bold text-white">SalesOnTime</p>
         </NavbarItem>
       </NavbarContent>
 
